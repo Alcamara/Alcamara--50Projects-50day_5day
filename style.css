@@ -1,15 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?&family=Mukidisplay=swap');
+@import url('https://fonts.googleapis.com/css2?&family=Ubuntudisplay=swap');
 
 * {
     box-sizing: border-box;  
 }
 
 body{
-    height: 100vh;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     margin: 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
     overflow: hidden;
+    margin: 0;
 }
+
+
+
+.bg{
+    height: 100px;
+    
+    background: url('https://i.picsum.photos/id/1005/5760/3840.jpg?hmac=2acSJCOwz9q_dKtDZdSB-OIK1HUcwBeXco_RMMTUgfY') no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.
